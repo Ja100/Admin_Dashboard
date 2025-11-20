@@ -38,7 +38,7 @@
     gap: 45px;
     color: white;
     font-weight: 400;
-    font-size: 25px;
+    font-size: 20px;
 }
 .sidebar a{
     color: white;
@@ -47,21 +47,22 @@
 .sidebar svg{
     height: 25px;
     width: 25px;
-    vertical-align: center;
+    position: relative;
+    vertical-align: middle;
     fill: white;
-    padding-right: 13px;
+    padding-right: 20px;
 }
 
 .navSection{
     display: grid;
-    gap: 10px;
+    gap: 15px;
 }
 
 
 .settingsSection{
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 15px;
 }
 
 
