@@ -112,6 +112,7 @@ button:hover{
 
 
 /* SIDEBAR SECTION STYLING */
+
 .sidebar{
     background-color: #3882f6;
     padding: 18px;
@@ -155,4 +156,80 @@ button:hover{
 .content{
     background-color:#e5e7eb;
     padding-top: 15px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+.content h4{
+    padding-bottom: 10px;
+}
+.projects{
+    background-color: red;
+}
+
+.announcements{
+    padding-left: 34px;
+}
+.announcementsCard {
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    width: 300px;
+    padding: 15px;
+}
+.announcementsCard hr{
+    border-bottom: 1px solid blue;
+    width: 80%;
+    margin-left:auto;
+    margin-right: auto;
+}
+.announcementsCardItem{
+    display: flex;
+    flex-direction: column;
+    margin-top: 7px;
+    margin-left: 20px;
+    width: 260px;
+}
+.announcementsCardItem p{
+    font-weight: 600;
+}
+.announcementsCardItem span{
+    
+    color: gray;
+    font-size: 13px;
+}
+
+.trending{
+    /* background-color: green; */
+    grid-column: 2;
+    padding-left: 34px;
+    padding-top: 45px;
+}
+.trendingCard{
+    background-color: white;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 320px;
+}
+.trendingCardItem{
+    display: flex;
+    gap: 18px;
+    padding: 12px;
+    padding-left: 25px;
+}
+
+.trendingCardItem img{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit:cover;
+    object-position: top;
+}
+.trendingCardItem span{
+    font-style: italic;
+    font-size: 15px;
+    color: gray;
 }
